@@ -36,7 +36,7 @@ I’m a biology student interested in AI, software development, Minecraft moddin
       <sup>03 / GAME SYSTEMS</sup><br><br>
       <strong><a href="https://github.com/zenghaolinz/Minecraft-mod-speedforce">Speed Force Mod →</a></strong><br>
       <sub>A NeoForge experiment in speed levels, lightning trails, bullet time, phasing, and time remnants.</sub><br><br>
-      <sub>围绕速度等级、闪电拖尾、子弹时间、穿墙与时间残影展开的 NeoForge 模组实验。</sub><br><br>
+      <sub>闪电侠 NeoForge 模组。</sub><br><br>
       <code>Java</code> <code>NeoForge 1.21.1</code>
     </td>
     <td width="50%" valign="top">
