@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="nlin — biology, AI, software and games" width="100%" />
+  <img src="./assets/profile-hero-v2.svg" alt="nlin — biology, AI, software and games" width="100%" />
 </p>
 
 ## Hi, I’m nlin 👋

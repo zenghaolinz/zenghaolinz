@@ -12,7 +12,7 @@ class ProfileReadmeTests(unittest.TestCase):
 
     def test_required_profile_files_exist(self):
         self.assertTrue((self.ROOT / "README.md").is_file())
-        self.assertTrue((self.ROOT / "assets/profile-hero.svg").is_file())
+        self.assertTrue((self.ROOT / "assets/profile-hero-v2.svg").is_file())
 
     def test_profile_contains_bilingual_sections(self):
         readme = self.readme()
@@ -42,7 +42,8 @@ class ProfileReadmeTests(unittest.TestCase):
 
     def test_profile_uses_only_local_visual_assets(self):
         readme = self.readme()
-        self.assertIn("./assets/profile-hero.svg", readme)
+        self.assertIn("./assets/profile-hero-v2.svg", readme)
+        self.assertNotIn("./assets/profile-hero.svg", readme)
         forbidden_hosts = (
             "shields.io",
             "github-readme-stats",
@@ -56,7 +57,7 @@ class ProfileReadmeTests(unittest.TestCase):
         self.assertEqual([], remote_images)
 
     def test_hero_svg_is_accessible_and_contains_approved_direction(self):
-        path = self.ROOT / "assets/profile-hero.svg"
+        path = self.ROOT / "assets/profile-hero-v2.svg"
         root = ET.parse(path).getroot()
         namespace = {"svg": "http://www.w3.org/2000/svg"}
         title = root.find("svg:title", namespace)
