@@ -18,13 +18,15 @@ class ProfileReadmeTests(unittest.TestCase):
         readme = self.readme()
         for heading in (
             "Selected Works / 代表项目",
-            "Interests / 兴趣坐标",
-            "Currently Exploring / 最近在探索",
+            "About Me / 关于我",
             "Toolbox / 技术栈",
         ):
             self.assertIn(heading, readme)
         self.assertIn("Hi, I’m nlin", readme)
-        self.assertIn("你好，我是 nlin", readme)
+        self.assertIn("一名生物专业的学生", readme)
+        self.assertIn("AI Agent、本地模型和多模态 AI", readme)
+        self.assertNotIn("理解复杂系统的不同入口", readme)
+        self.assertNotIn("models become tools", readme)
 
     def test_featured_projects_link_to_real_repositories(self):
         readme = self.readme()
@@ -66,8 +68,8 @@ class ProfileReadmeTests(unittest.TestCase):
         svg_text = path.read_text(encoding="utf-8")
         for phrase in (
             "FIELD NOTES",
-            "Software as an",
-            "experimental medium.",
+            "Biology student,",
+            "building with AI.",
             "AI AGENTS",
             "MINECRAFT MODDING",
         ):

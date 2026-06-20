@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="nlin — software as an experimental medium" width="100%" />
+  <img src="./assets/profile-hero.svg" alt="nlin — biology, AI, software and games" width="100%" />
 </p>
 
 ## Hi, I’m nlin 👋
 
-I build AI workspaces, local-first tools, and playful game systems. I enjoy moving between models, interfaces, and mechanics—then turning the interesting parts into software people can actually use.
+I’m a biology student interested in AI, software development, Minecraft modding, and game development. I’m currently studying AI agents, local models, multimodal AI, and lightweight desktop applications.
 
-你好，我是 nlin。我喜欢在 AI 模型、软件界面与游戏机制之间来回探索，并把其中有趣的想法做成真正可用的项目。
+你好，我是 nlin，一名生物专业的学生。我喜欢 AI、软件开发、Minecraft 模组和游戏开发，目前主要研究 AI Agent、本地模型和多模态 AI，也在尝试开发轻量的桌面应用。
 
 `AI agents` · `Local models` · `Multimodal AI` · `Minecraft modding` · `Creative software`
 
@@ -51,28 +51,11 @@ I build AI workspaces, local-first tools, and playful game systems. I enjoy movi
 
 ---
 
-## Interests / 兴趣坐标
+## About Me / 关于我
 
-**AI Agents · Local LLMs · Open Source**  
-**Minecraft Modding · Game Development**  
-**Multimodal AI · Creative Software · Biology**
-
-我对“模型如何成为工具”以及“机制如何创造体验”尤其感兴趣。对我来说，AI、游戏开发和生物学并不是互相隔离的领域，而是理解复杂系统的不同入口。
-
-I am especially interested in how models become tools and how mechanics create experiences. AI, game development, and biology feel less like separate subjects and more like different ways to study complex systems.
-
----
-
-## Currently Exploring / 最近在探索
-
-- **Consumer-hardware inference** — running useful AI models without data-center hardware  
-  **消费级硬件推理** — 让实用模型在普通设备上稳定运行
-- **Reliable agent behavior** — building agents that are observable, recoverable, and less fragile  
-  **更可靠的 Agent** — 可观察、可恢复，并减少脆弱的自动化链路
-- **Minecraft mechanics** — experimenting with time, movement, and emergent gameplay  
-  **Minecraft 机制** — 探索时间、移动与涌现式玩法
-- **Lightweight desktop AI** — local-first creative and learning applications  
-  **轻量桌面 AI** — 本地优先的创作与学习软件
+- **专业 / Major:** Biology / 生物学
+- **喜欢 / Interests:** AI、软件开发、Minecraft 模组、游戏开发
+- **研究 / Exploring:** AI Agent、本地模型、多模态 AI、轻量桌面应用
 
 ---
 
