@@ -1,3 +1,5 @@
 .superpowers/
 brainstorm-server.out
 brainstorm-server.err
+__pycache__/
+*.py[cod]
